@@ -1,6 +1,13 @@
 {
-  "name": "rubenr-system-design",
+  "name": "@4ossama4/button-angular-test",
   "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4ossama4/button-angular-test.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +16,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.1",
     "@angular/common": "~9.1.1",
@@ -24,6 +30,8 @@
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~0.901.15",
+    "@angular-devkit/build-ng-packagr": "~0.901.15",
     "@angular/cli": "~9.1.1",
     "@angular/compiler-cli": "~9.1.1",
     "@angular/language-service": "~9.1.1",
@@ -38,6 +46,7 @@
     "karma-coverage-istanbul-reporter": "~2.1.0",
     "karma-jasmine": "~3.0.1",
     "karma-jasmine-html-reporter": "^1.4.2",
+    "ng-packagr": "^9.0.0",
     "protractor": "~5.4.3",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
